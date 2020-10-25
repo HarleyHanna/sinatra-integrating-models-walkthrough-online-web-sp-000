@@ -40,10 +40,9 @@ class TextAnalyzer
           :most_used_letter => "",
           :letter_count => ""
         }
-        biggest[key] = value
         
-        biggest[:letter] = key
-        biggest[:count] = value
+        biggest[:most_used_letter] = key
+        biggest[:letter_count] = value
       end
     end
     
