@@ -8,4 +8,4 @@
 
 <% biggest = @analyzed_text.biggest_word %>
 
-<h2>Most Common Letter:  used _____ times</h2>
+<h2>Most Common Letter: <%= biggest.key %>  used <%= biggest[key] %> times</h2>
