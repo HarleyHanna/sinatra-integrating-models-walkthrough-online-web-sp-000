@@ -29,7 +29,10 @@ class TextAnalyzer
       arr2[c] = arr.count(c)
     end
     
-    biggest = { arr2.keys.first => arr2.values.first }
+    biggest = { 
+      :most_used_letter  => arr2.keys.first,
+      :letter_count => arr2.values.first 
+    }
     
     arr2.each do |key, value|
       if value > biggest.values.first
