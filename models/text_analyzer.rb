@@ -35,7 +35,7 @@ class TextAnalyzer
     }
     
     arr2.each do |key, value|
-      if value > biggest.values.first
+      if value > biggest.values[1]
         biggest = {}
         biggest[key] = value
         
