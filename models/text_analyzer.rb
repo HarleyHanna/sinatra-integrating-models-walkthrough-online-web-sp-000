@@ -35,10 +35,13 @@ class TextAnalyzer
       if value > biggest.values.first
         biggest = {}
         biggest[key] = value
+        
+        biggest[:letter] = key
+        biggest[:count] = value
       end
     end
     
-    biggest
+
     
     biggest
   end
