@@ -38,6 +38,7 @@ class TextAnalyzer
         
         biggest[:letter] = key
         biggest[:count] = value
+        biggest[key] = value
       end
     end
     
